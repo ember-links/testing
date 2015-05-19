@@ -22,7 +22,9 @@ https://github.com/ember-cli/ember-cli/issues/3529
 - [Acceptance testing in Ember-CLI, an introduction.](http://mariogintili.svbtle.com/acceptance-testing-ember-cli)
 	- 2nd May 2015 • Beginner • [Mario Gintili][MarioGintili]
 	- Basic acceptance test use case run through
-	- stubbing requests with [Pretender][pretender] & [Ember-CLI-Mirage][ember-cli-mirage]
+	- stubbing requests with [Pretender][Pretender] & [Ember-CLI-Mirage][ember-cli-mirage]
+- [](http://spin.atomicobject.com/2015/05/18/sinon-js-ember-cli-testing/)
+  - 18th May 2015 • Medium • John Fisher @ [Atomic Object][AtomicObject]
 
 ##Forum Posts
 - [Proper way to handler timers w/ Ember Testing](http://discuss.emberjs.com/t/proper-way-to-handler-timers-w-ember-testing/4693)
@@ -32,20 +34,29 @@ https://github.com/ember-cli/ember-cli/issues/3529
 ##Project Github Repos
 
 ###[LG Front-End](https://github.com/201-created/LG)
+- general patterns & using registerAsyncHelpers
+- stubbing requests using [Pretender][Pretender]
+  - https://github.com/201-created/LG/blob/master/tests/helpers/fake-server.js
+  - https://github.com/201-created/LG/blob/master/tests/helpers/fake-requests.js
 - stubbing authentication with [torii][torii]
-- general patterns
+  - https://github.com/201-created/LG/blob/master/tests/helpers/sign-in.js
 
-Specific files
-- https://github.com/201-created/LG/blob/master/tests/helpers/sign-in.js
+###[Ember Jobs](https://github.com/stefanpenner/ember-jobs)
+- stubbing resolver
+  - https://github.com/stefanpenner/ember-jobs/blob/master/tests/helpers/container.js
+  - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/admin-test.js
+- simple stubbing of requests using [Pretender][Pretender]
+  - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/searching-test.js
 
-https://github.com/stefanpenner/ember-jobs
-Stubbing resolver, Pretender
-https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/searching-test.js
-https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/admin-test.js
+
+
+
+--
 
 [MarioGintili]: https://twitter.com/mariogintili
 [teddyzeenny]: https://twitter.com/teddyzeenny
+[AtomicObject]: https://twitter.com/atomicobject
 
 [ember-cli-mirage]: http://www.ember-cli-mirage.com/
-[pretender]: https://github.com/trek/pretender
+[Pretender]: https://github.com/trek/pretender
 [torii]: http://vestorly.github.io/torii/
