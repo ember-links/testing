@@ -2,97 +2,96 @@
 
 ##Screencasts
 - [An Introduction to Ember.js](https://skillsmatter.com/skillscasts/6362-an-introduction-to-ember-js)
-  - 12th May 2015 • Beginner • [Jamie White][jgwhite]
-  - setting up testing on new Ember CLI project
-  - using [Phantom JS][PhantomJS]
-  - mocking services and using [Firebase][Emberfire] with [MockFirebase][MockFirebase]
+    - 12th May 2015 • Beginner • [Jamie White][jgwhite]
+    - setting up testing on new Ember CLI project
+    - using [Phantom JS][PhantomJS]
+    - mocking services and using [Firebase][Emberfire] with [MockFirebase][MockFirebase]
 
 ##Slideshows
 - [Testing Ember Apps: Managing Dependency](http://www.slideshare.net/mixonic/testing-ember-apps-managing-dependency)
-  - 29th August 2015 • Advanced • [Mixonic][mixonic]
-  - isolating implementation & normalize behaviour
-  - extract as service and use promise for consistent sync/async behaviour
-  - has [an accompanying blogpost with more details](http://madhatted.com/2014/8/29/testing-ember-js-apps-managing-dependencies)
+    - 29th August 2015 • Advanced • [Mixonic][mixonic]
+    - isolating implementation & normalize behaviour
+    - extract as service and use promise for consistent sync/async behaviour
+    - has [an accompanying blogpost with more details](http://madhatted.com/2014/8/29/testing-ember-js-apps-managing-dependencies)
 
 - [slideshow (not too detailed)](http://www.slideshare.net/bantic/ember-testing-internals-with-ember-cli)
-  - [Cory Forsyth][Bantic]
+    - [Cory Forsyth][Bantic]
 
 ##Blog Posts
 - [Ember QUnit 0.2.x](http://reefpoints.dockyard.com/2015/02/06/ember-qunit-0-2.html)
-  - 6th February 2015 • Beginner • [Robert Jackson][rwjblue]
-  - simple examples
-  - this.append() is now this.subject()
-  - setup/teardown is now beforeEach/afterEach
+    - 6th February 2015 • Beginner • [Robert Jackson][rwjblue]
+    - simple examples
+    - this.append() is now this.subject()
+    - setup/teardown is now beforeEach/afterEach
 - [Acceptance testing in Ember-CLI, an introduction.](http://mariogintili.svbtle.com/acceptance-testing-ember-cli)
-	- 2nd May 2015 • Beginner • [Mario Gintili][MarioGintili]
-	- basic acceptance test use case run through
-	- stubbing requests with [Pretender][Pretender] & [Ember-CLI-Mirage][ember-cli-mirage]
+    - 2nd May 2015 • Beginner • [Mario Gintili][MarioGintili]
+    - basic acceptance test use case run through
+    - stubbing requests with [Pretender][Pretender] & [Ember-CLI-Mirage][ember-cli-mirage]
 - [Improving Ember-CLI Testing with Sinon.js](http://spin.atomicobject.com/2015/05/18/sinon-js-ember-cli-testing/)
-  - 18th May 2015 • Intermediate • John Fisher @ [Atomic Object][AtomicObject]
-  - how to use [Sinon][Sinon] library with [Ember-sinon][Ember-sinon]
-  - example demonstrating stubbing and checking actions
+    - 18th May 2015 • Intermediate • John Fisher @ [Atomic Object][AtomicObject]
+    - how to use [Sinon][Sinon] library with [Ember-sinon][Ember-sinon]
+    - example demonstrating stubbing and checking actions
 - [Demystifying Asncy testing](http://coryforsyth.com/2014/07/10/demystifing-ember-async-testing/)
-  - [Cory Forsyth][Bantic]
+    - [Cory Forsyth][Bantic]
 - [Mocking Ember Services for Unit Testing](http://blog.stevenedouard.com/mocking-ember-services-for-unit-testing/)
-  - 17th April 2015 • Intermediate • [Steven Edouard][stevenedouard]
-  - mocking Azure storage
-  - custom adapters
-  - unit testing mocked services
+    - 17th April 2015 • Intermediate • [Steven Edouard][stevenedouard]
+    - mocking Azure storage
+    - custom adapters
+    - unit testing mocked services
 
 
 ##Forum Posts
 
 - [Proper way to handler timers w/ Ember Testing](http://discuss.emberjs.com/t/proper-way-to-handler-timers-w-ember-testing/4693)
-	- some options for Ember.run.later issue but no real conclusion
-	- [proposed solution on Stack Overflow](http://stackoverflow.com/questions/27851517/ember-integration-testing-hangs-after-visiting-route#answer-27887807) by [Teddy Zeenny][teddyzeenny]
+    - some options for Ember.run.later issue but no real conclusion
+    - [proposed solution on Stack Overflow](http://stackoverflow.com/questions/27851517/ember-integration-testing-hangs-after-visiting-route#answer-27887807) by [Teddy Zeenny][teddyzeenny]
 - [Manually overriding the testing run loop to wait for something](http://stackoverflow.com/questions/25512168/async-call-in-ember-testing#answer-25513886)
-  - a very basic way of pausing the test for a fixed time to allow for a non-promise event to occur
+    - a very basic way of pausing the test for a fixed time to allow for a non-promise event to occur
 - [Registering Asnyc Helpers](http://stackoverflow.com/questions/26498845/using-ember-cli-how-do-i-get-an-acceptance-test-to-wait-for-a-promise#answer-27085279)
-  -  create an Async Helper to wait for a specified promise to resolve [Luke Melia][LukeMelia]
+    -  create an Async Helper to wait for a specified promise to resolve [Luke Melia][LukeMelia]
 
 ##Libraries
 
 - [ember-cli-htmlbars-inline-precompile](https://github.com/pangratz/ember-cli-htmlbars-inline-precompile)
-  - by [Clemens Müller][pangratz]
-  - Precompile inline HTMLBars templates via ES6 tagged template strings
-  - Addon to help make component integration tests readable see
-    - [Stefan Penner's precompile suggestions](https://gist.github.com/stefanpenner/38a36298d04b29bbce5f)
-    - [Support component integration tests](https://github.com/switchfly/ember-test-helpers/pull/38)
+    - by [Clemens Müller][pangratz]
+    - Precompile inline HTMLBars templates via ES6 tagged template strings
+    - Addon to help make component integration tests readable see
+        - [Stefan Penner's precompile suggestions](https://gist.github.com/stefanpenner/38a36298d04b29bbce5f)
+        - [Support component integration tests](https://github.com/switchfly/ember-test-helpers/pull/38)
 
 - [ember-qunit](https://github.com/rwjblue/ember-qunit)
-  - by [Robert Jackson][rwjblue]
-  - unit test helpers for Ember
+    - by [Robert Jackson][rwjblue]
+    - unit test helpers for Ember
 
 ##Forthcoming Features
 
 > Keep an eye on these for newer techniques when wrtiting tests
 
 ###Using new wait format for async testing
-https://github.com/switchfly/ember-test-helpers/issues/50
-- Using the new asnyc wait format... as per
-https://github.com/ember-cli/ember-cli/issues/3529
-  
+
+- [Using the new asnyc wait format](https://github.com/switchfly/ember-test-helpers/issues/50) as per
+    - https://github.com/ember-cli/ember-cli/issues/3529
 
 ##Github repos with good testing examples
 
 ###[LG Front-End](https://github.com/201-created/LG)
 - general patterns & using registerAsyncHelpers
 - stubbing requests using [Pretender][Pretender]
-  - https://github.com/201-created/LG/blob/master/tests/helpers/fake-server.js
-  - https://github.com/201-created/LG/blob/master/tests/helpers/fake-requests.js
+    - https://github.com/201-created/LG/blob/master/tests/helpers/fake-server.js
+    - https://github.com/201-created/LG/blob/master/tests/helpers/fake-requests.js
 - stubbing authentication with [torii][torii]
-  - https://github.com/201-created/LG/blob/master/tests/helpers/sign-in.js
+    - https://github.com/201-created/LG/blob/master/tests/helpers/sign-in.js
 
 ###[Ember Jobs](https://github.com/stefanpenner/ember-jobs)
 - stubbing resolver
-  - https://github.com/stefanpenner/ember-jobs/blob/master/tests/helpers/container.js
-  - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/admin-test.js
+    - https://github.com/stefanpenner/ember-jobs/blob/master/tests/helpers/container.js
+    - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/admin-test.js
 - simple stubbing of requests using [Pretender][Pretender]
-  - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/searching-test.js
+    - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/searching-test.js
 
 ###[Ember Inspector](https://github.com/emberjs/ember-inspector)
 - container lookups
-  - https://github.com/emberjs/ember-inspector/blob/master/tests/integration/view_tree_test.js
+    - https://github.com/emberjs/ember-inspector/blob/master/tests/integration/view_tree_test.js
 
 [MarioGintili]: https://twitter.com/mariogintili
 [teddyzeenny]: https://twitter.com/teddyzeenny
