@@ -68,7 +68,6 @@
     - https://github.com/ember-cli/ember-cli/issues/3529
 
 ##Github repos with good testing examples
-
 - [LG Front-End](https://github.com/201-created/LG)
     - general patterns & using registerAsyncHelpers
     - stubbing requests using [Pretender][Pretender]
@@ -76,14 +75,12 @@
         - https://github.com/201-created/LG/blob/master/tests/helpers/fake-requests.js
     - stubbing authentication with [torii][torii]
         - https://github.com/201-created/LG/blob/master/tests/helpers/sign-in.js
-
 - [Ember Jobs](https://github.com/stefanpenner/ember-jobs)
     - stubbing resolver
         - https://github.com/stefanpenner/ember-jobs/blob/master/tests/helpers/container.js
         - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/admin-test.js
     - simple stubbing of requests using [Pretender][Pretender]
         - https://github.com/stefanpenner/ember-jobs/blob/master/tests/acceptance/searching-test.js
-
 - [Ember Inspector](https://github.com/emberjs/ember-inspector)
     - container lookups
         - https://github.com/emberjs/ember-inspector/blob/master/tests/integration/view_tree_test.js
