@@ -13,7 +13,6 @@
     - isolating implementation & normalize behaviour
     - extract as service and use promise for consistent sync/async behaviour
     - has [an accompanying blogpost with more details](http://madhatted.com/2014/8/29/testing-ember-js-apps-managing-dependencies)
-
 - [slideshow (not too detailed)](http://www.slideshare.net/bantic/ember-testing-internals-with-ember-cli)
     - [Cory Forsyth][Bantic]
 
@@ -41,7 +40,6 @@
 
 
 ##Forum Posts
-
 - [Proper way to handler timers w/ Ember Testing](http://discuss.emberjs.com/t/proper-way-to-handler-timers-w-ember-testing/4693)
     - some options for Ember.run.later issue but no real conclusion
     - [proposed solution on Stack Overflow](http://stackoverflow.com/questions/27851517/ember-integration-testing-hangs-after-visiting-route#answer-27887807) by [Teddy Zeenny][teddyzeenny]
@@ -51,14 +49,12 @@
     -  create an Async Helper to wait for a specified promise to resolve [Luke Melia][LukeMelia]
 
 ##Libraries
-
 - [ember-cli-htmlbars-inline-precompile](https://github.com/pangratz/ember-cli-htmlbars-inline-precompile)
     - by [Clemens Müller][pangratz]
     - Precompile inline HTMLBars templates via ES6 tagged template strings
     - Addon to help make component integration tests readable see
         - [Stefan Penner's precompile suggestions](https://gist.github.com/stefanpenner/38a36298d04b29bbce5f)
         - [Support component integration tests](https://github.com/switchfly/ember-test-helpers/pull/38)
-
 - [ember-qunit](https://github.com/rwjblue/ember-qunit)
     - by [Robert Jackson][rwjblue]
     - unit test helpers for Ember
@@ -68,7 +64,6 @@
 > Keep an eye on these for newer techniques when wrtiting tests
 
 ###Using new wait format for async testing
-
 - [Using the new asnyc wait format](https://github.com/switchfly/ember-test-helpers/issues/50) as per
     - https://github.com/ember-cli/ember-cli/issues/3529
 
