@@ -51,13 +51,17 @@
 ##Libraries
 - [ember-cli-htmlbars-inline-precompile](https://github.com/pangratz/ember-cli-htmlbars-inline-precompile)
     - by [Clemens Müller][pangratz]
-    - Precompile inline HTMLBars templates via ES6 tagged template strings
-    - Addon to help make component integration tests readable see
+    - precompile inline HTMLBars templates via ES6 tagged template strings
+    - addon to help make component integration tests readable see
         - [Stefan Penner's precompile suggestions](https://gist.github.com/stefanpenner/38a36298d04b29bbce5f)
         - [Support component integration tests](https://github.com/switchfly/ember-test-helpers/pull/38)
+        - [Robert Jackson's Example Gist](https://gist.github.com/rwjblue/a178377293380ed537ce)
 - [ember-qunit](https://github.com/rwjblue/ember-qunit)
     - by [Robert Jackson][rwjblue]
     - unit test helpers for Ember
+- [ember-simple-auth-testing](https://github.com/simplabs/ember-simple-auth/tree/master/packages/ember-simple-auth-testing)
+    - by [marcoow][marcoow]
+    - 3 test helpers for authenticating / setting the current session / invalidating when using Ember Simple Auth
 
 ##Forthcoming Features
 
@@ -84,6 +88,9 @@
 - [Ember Inspector](https://github.com/emberjs/ember-inspector)
     - container lookups
         - https://github.com/emberjs/ember-inspector/blob/master/tests/integration/view_tree_test.js
+- [Ember Crumbly](https://github.com/poteto/ember-crumbly)
+    - acceptance testing formatting
+        - https://github.com/poteto/ember-crumbly/blob/develop/tests/acceptance/integration-test.js
 
 [MarioGintili]: https://twitter.com/mariogintili
 [teddyzeenny]: https://twitter.com/teddyzeenny
@@ -95,6 +102,7 @@
 [jgwhite]: https://twitter.com/jgwhite
 [stevenedouard]: http://blog.stevenedouard.com/
 [pangratz]: https://twitter.com/pangratz
+[marcoow]: https://twitter.com/marcoow
 
 [ember-cli-mirage]: http://www.ember-cli-mirage.com/
 [Pretender]: https://github.com/trek/pretender
