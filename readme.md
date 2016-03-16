@@ -92,6 +92,15 @@
     - acceptance testing formatting
         - https://github.com/poteto/ember-crumbly/blob/develop/tests/acceptance/integration-test.js
 
+##Tips
+
+###Using [Pretender][Pretender] with [Ember Mirage][ember-cli-mirage]
+
+Under the hood [Ember Mirage][ember-cli-mirage] uses [Pretender][Pretender] so you can access it directly using something like,
+```javascript
+server.pretender.post('route', function(req) { assert.ok(SOMETHING)})`
+```
+
 [MarioGintili]: https://twitter.com/mariogintili
 [teddyzeenny]: https://twitter.com/teddyzeenny
 [AtomicObject]: https://twitter.com/atomicobject
