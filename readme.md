@@ -98,7 +98,7 @@
 
 Under the hood [Ember Mirage][ember-cli-mirage] uses [Pretender][Pretender] so you can access it directly using something like,
 ```javascript
-server.pretender.post('route', function(req) { assert.ok(SOMETHING)})`
+server.pretender.post('route', function(req) { assert.ok(SOMETHING)} )
 ```
 
 [MarioGintili]: https://twitter.com/mariogintili
