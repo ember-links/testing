@@ -63,14 +63,6 @@
     - by [marcoow][marcoow]
     - 3 test helpers for authenticating / setting the current session / invalidating when using Ember Simple Auth
 
-##Forthcoming Features
-
-> Keep an eye on these for newer techniques when wrtiting tests
-
-###Using new wait format for async testing
-- [Using the new asnyc wait format](https://github.com/switchfly/ember-test-helpers/issues/50) as per
-    - https://github.com/ember-cli/ember-cli/issues/3529
-
 ##Github repos with good testing examples
 - [LG Front-End](https://github.com/201-created/LG)
     - general patterns & using registerAsyncHelpers
@@ -91,6 +83,20 @@
 - [Ember Crumbly](https://github.com/poteto/ember-crumbly)
     - acceptance testing formatting
         - https://github.com/poteto/ember-crumbly/blob/develop/tests/acceptance/integration-test.js
+- [Ember Long Polling With Testing Example](https://github.com/toranb/ember-long-polling-with-tests) by [toranb][toranb]
+    - stubbing out long polling using a service
+        - https://github.com/toranb/ember-long-polling-with-tests/blob/master/tests/acceptance/tickets-polling-test.js#L12-L28
+
+##Forthcoming Features
+
+> Keep an eye on these for newer techniques when wrtiting tests
+
+###Using new wait format for async testing
+- [Using the new asnyc wait format](https://github.com/switchfly/ember-test-helpers/issues/50) as per
+    - https://github.com/ember-cli/ember-cli/issues/3529
+
+###New testing syntax RFC by [rwjblue][rwjblue]
+- [Grand Testing Unification -- RFC](https://github.com/rwjblue/rfcs/blob/42/text/0000-grand-testing-unification.md)
 
 ##Tips
 
@@ -112,6 +118,7 @@ server.pretender.post('route', function(req) { assert.ok(SOMETHING)} )
 [stevenedouard]: http://blog.stevenedouard.com/
 [pangratz]: https://twitter.com/pangratz
 [marcoow]: https://twitter.com/marcoow
+[toranb]: https://twitter.com/toranb
 
 [ember-cli-mirage]: http://www.ember-cli-mirage.com/
 [Pretender]: https://github.com/trek/pretender
