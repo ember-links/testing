@@ -37,6 +37,13 @@
     - mocking Azure storage
     - custom adapters
     - unit testing mocked services
+- [Ember component integration tests](http://alisdair.mcdiarmid.org/2015/06/20/ember-component-integration-tests.html)
+	- 20th June 2015 • Intermediate • 
+
+http://alisdair.mcdiarmid.org/2015/06/20/ember-component-integration-tests.html
+http://matteodepalo.github.io/blog/2014/01/03/ember-integration-testing-with-konacha/
+http://emberup.co/integration-tests-for-components/
+
 
 
 ##Forum Posts
@@ -91,6 +98,20 @@
 - [Ember Crumbly](https://github.com/poteto/ember-crumbly)
     - acceptance testing formatting
         - https://github.com/poteto/ember-crumbly/blob/develop/tests/acceptance/integration-test.js
+- [Ember Front End Blog](https://github.com/Robdel12/front-end-blog)
+    - acceptance testing with [Pretender][Pretender]
+        - https://github.com/Robdel12/front-end-blog/blob/master/tests/acceptance/adding-post-test.js
+- [Liquid Fire](https://github.com/ef4/liquid-fire)
+    - working with view registry (last resort, better to test visible interfaces)
+        - https://github.com/ef4/liquid-fire/blob/fa2a79964763a5290c32f09ed209f443259a3139/tests/integration/helpers/liquid-spacer-test.js#L18-L40
+
+
+https://github.com/alphasights/ember-calendar/blob/develop/tests/unit/components/as-calendar-test.js
+
+Updating to new component integration tests from unit
+https://github.com/rwjblue/dashboard.aptible.com/commit/43995b61ff9ceea3b937ebd69de03637584f25e4?diff=split
+
+
 
 [MarioGintili]: https://twitter.com/mariogintili
 [teddyzeenny]: https://twitter.com/teddyzeenny
