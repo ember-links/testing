@@ -104,6 +104,9 @@ http://emberup.co/integration-tests-for-components/
 - [Liquid Fire](https://github.com/ef4/liquid-fire)
     - working with view registry (last resort, better to test visible interfaces)
         - https://github.com/ef4/liquid-fire/blob/fa2a79964763a5290c32f09ed209f443259a3139/tests/integration/helpers/liquid-spacer-test.js#L18-L40
+- [Ember Long Polling With Testing Example](https://github.com/toranb/ember-long-polling-with-tests) by [toranb][toranb]
+    - stubbing out long polling using a service
+        - https://github.com/toranb/ember-long-polling-with-tests/blob/master/tests/acceptance/tickets-polling-test.js#L12-L28
 
 
 https://github.com/alphasights/ember-calendar/blob/develop/tests/unit/components/as-calendar-test.js
@@ -112,6 +115,26 @@ Updating to new component integration tests from unit
 https://github.com/rwjblue/dashboard.aptible.com/commit/43995b61ff9ceea3b937ebd69de03637584f25e4?diff=split
 
 
+
+##Forthcoming Features
+
+> Keep an eye on these for newer techniques when wrtiting tests
+
+###Using new wait format for async testing
+- [Using the new asnyc wait format](https://github.com/switchfly/ember-test-helpers/issues/50) as per
+    - https://github.com/ember-cli/ember-cli/issues/3529
+
+###New testing syntax RFC by [rwjblue][rwjblue]
+- [Grand Testing Unification -- RFC](https://github.com/rwjblue/rfcs/blob/42/text/0000-grand-testing-unification.md)
+
+##Tips
+
+###Using [Pretender][Pretender] with [Ember Mirage][ember-cli-mirage]
+
+Under the hood [Ember Mirage][ember-cli-mirage] uses [Pretender][Pretender] so you can access it directly using something like,
+```javascript
+server.pretender.post('route', function(req) { assert.ok(SOMETHING)} )
+```
 
 [MarioGintili]: https://twitter.com/mariogintili
 [teddyzeenny]: https://twitter.com/teddyzeenny
@@ -124,6 +147,7 @@ https://github.com/rwjblue/dashboard.aptible.com/commit/43995b61ff9ceea3b937ebd6
 [stevenedouard]: http://blog.stevenedouard.com/
 [pangratz]: https://twitter.com/pangratz
 [marcoow]: https://twitter.com/marcoow
+[toranb]: https://twitter.com/toranb
 
 [ember-cli-mirage]: http://www.ember-cli-mirage.com/
 [Pretender]: https://github.com/trek/pretender
